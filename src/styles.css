@@ -3,6 +3,7 @@ button {
   padding: 5px 10px;
   border-radius: 5px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 button:hover {
@@ -22,6 +23,14 @@ button:hover {
   padding: 5px 10px;
   display: flex;
   align-items: center;
+}
+
+.content--no-user {
+  height: 51px;
+}
+
+.content--user {
+  height: 122px;
 }
 
 .info {
